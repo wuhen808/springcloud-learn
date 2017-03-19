@@ -12,7 +12,6 @@ public class ShardFactory {
 	private static Map<String, BaseShard> shardUtilMap;
 
 	static {
-		// 初始化工厂map，构造单例的路由工具集合
 		shardUtilMap = new HashMap<>();
 		for (ShardTableEnum shardTableEnum : ShardTableEnum.values()) {
 			try {
