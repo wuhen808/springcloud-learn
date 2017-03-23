@@ -43,5 +43,6 @@
 		<module>gateway</module>
 		<module>config</module>
 		<module>service1</module>
+		<module>redis</module>
 	</modules>
 </project>
